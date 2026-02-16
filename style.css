@@ -525,7 +525,7 @@ footer {
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .navbar {
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 3rem;
     }
 
     .hamburger {
