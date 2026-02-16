@@ -525,12 +525,14 @@ footer {
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .navbar {
-        padding: 1.5rem 3rem;
+        padding: 1.5rem;
     }
 
     .hamburger {
         display: block;
         cursor: pointer;
+        margin-right: 30px;
+        /* Move left by approx 1cm for better accessibility */
     }
 
     .hamburger .bar {
@@ -544,20 +546,18 @@ footer {
 
     .nav-links {
         position: fixed;
-        right: 0;
-        top: 160px;
+        right: -100%;
+        top: 80px;
         flex-direction: column;
         background-color: var(--secondary-color);
         width: 100%;
         text-align: center;
         padding: 2rem;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
     }
 
     .nav-links.active {
-        transform: translateX(0);
+        right: 0;
     }
 
     .hero {
