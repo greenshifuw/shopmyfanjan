@@ -349,6 +349,42 @@ h4 {
     margin-left: 1rem;
 }
 
+/* Guide Section */
+.guide-section {
+    padding: 6rem 10%;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.guide-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background: var(--accent-color);
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 15px 40px rgba(0, 204, 106, 0.05);
+}
+
+.guide-content h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.guide-content p {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin-bottom: 3rem;
+    line-height: 1.8;
+}
+
+.guide-btn {
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+}
+
 /* Vision Section */
 .vision-section {
     padding: 8rem 10%;
